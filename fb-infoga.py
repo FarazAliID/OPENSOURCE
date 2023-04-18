@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#creater:Faraz Ali 
+#creater:
 #_________[ IMPORTING MODULES ]_______>>
 import os,sys,json
 import time,requests
@@ -21,7 +21,7 @@ def logo():
  |_| |_.__/      |_|_| |_|_| \___/ \__, |\__,_|
                                     __/ |      
                                    |___/ 
-                          Creater : {green}Faraz Ali ID{white}
+                          Creater : {green} Faraz Ali ID{white}
                           Version : {green}0.0.1{white}""")
     print(50*'-')
 #_________[ PRINT JSON ]______>>>
