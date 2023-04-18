@@ -4,7 +4,7 @@
 import os,sys,json
 import time,requests
 #_________[ APP TOKEN ]_______>
-app_token = "EAAGOfOcFdnYBAMuNAnxP0sSx73zkRRQG1n4THBNcSC8aqCqbiVJ9wnktQNcOZAg0fBTMVKoYKDWa6zOd7vIll5ZCrl5oyElfgZCbiZAWg2pXDuArQZBdosCRoZCDwZB6gpScaZANLWSraT3U5qfXW3rhP5ZAZB90GPEiZAMjZAuqZCzcZAZB23OhPsZBCS4YYsYYeW4P9JkZD"
+app_token = "EAAGOfOcFdnYBADZCQLHpcKcWgyCsw3Wy7VuNkR0gsooPmN9Mq3cHAviIG3umq8Sye0uKBatrI0j1PNLIsWYg89t57oubOj04p6irehhacTYdPUhN1siMJtiHgIx0qhjSGqmQZCji3ZCgKpxQzpwxFRnmTjAsUtXH5zsd2p6qcR8jx7s6kZChWKEEUBKvZAoEZD"
 #_______[ BASIC COLORS ]_____>>
 white = '\033[1;37m'
 rad = '\033[1;31m'
