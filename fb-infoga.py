@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-#creater:
+#creater:Faraz Ali 
 #_________[ IMPORTING MODULES ]_______>>
 import os,sys,json
 import time,requests
 #_________[ APP TOKEN ]_______>
-app_token = "EAAGOfOcFdnYBAOKnVp0tDRVfjnYXLg5HRHpZBtDBdzq8aw2u9ttMSqgcrpww8izZBX6sUjmInE1TJdaPCudsd0hCYIUjeAqBLgK6TqeHMfBKDtqFoMNXS97LhTl65qFORA2TkCytFYM0ZCqEktkFtpt7h1QyT1rtkDb0EO6wtZAoEKBYz12ZCNaViEcGMEZAcZD"
+app_token = "EAAGOfOcFdnYBAMuNAnxP0sSx73zkRRQG1n4THBNcSC8aqCqbiVJ9wnktQNcOZAg0fBTMVKoYKDWa6zOd7vIll5ZCrl5oyElfgZCbiZAWg2pXDuArQZBdosCRoZCDwZB6gpScaZANLWSraT3U5qfXW3rhP5ZAZB90GPEiZAMjZAuqZCzcZAZB23OhPsZBCS4YYsYYeW4P9JkZD"
 #_______[ BASIC COLORS ]_____>>
 white = '\033[1;37m'
 rad = '\033[1;31m'
@@ -21,7 +21,7 @@ def logo():
  |_| |_.__/      |_|_| |_|_| \___/ \__, |\__,_|
                                     __/ |      
                                    |___/ 
-                          Creater : {green} Faraz Ali ID{white}
+                          Creater : {green}Faraz Ali ID{white}
                           Version : {green}0.0.1{white}""")
     print(50*'-')
 #_________[ PRINT JSON ]______>>>
